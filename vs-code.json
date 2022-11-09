@@ -1,0 +1,295 @@
+{
+    "grunt.autoDetect": "on",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.preferredDarkColorTheme": "Bear Theme",
+    "files.autoSave": "afterDelay",
+    "verilog.ctags.path": "\"D:\\Downloads\\System_Utilities\\ctags\\ctags.exe\"",
+    "verilog.linting.iverilog.arguments": "-y .\\. -Wall -g2012",
+    "verilog.linting.linter": "iverilog",
+    "verilog.linting.verilator.runAtFileLocation": true,
+    "verilog.linting.verilator.arguments": "-y ./.",
+
+    "editor.minimap.showSlider": "always",
+    "bookmarks.sideBar.expanded": true,
+    "editor.renderWhitespace": "none",
+    "bookmarks.label.suggestion": "useWhenSelected",
+    "explorer.autoReveal": false,
+    "explorer.confirmDelete": false,
+    "files.associations": {
+        ".vimrc": "viml",
+        "vimrc": "viml"
+    },
+    "[c]": {
+        "editor.semanticHighlighting.enabled": false
+    },
+
+    "workbench.colorCustomizations": {
+
+        "[Bear Theme]": {
+            "activityBar.foreground": "#d7d5d5",
+            "descriptionForeground": "#d7d5d5",
+            "editor.foreground": "#d7d5d5",
+            "editorCursor.foreground": "#d7d5d5",
+            // "editorLineNumber.foreground": "#d7d5d5",
+            // "editorLineNumber.activeForeground": "#ff5dab",
+            "foreground": "#d7d5d5",
+            "list.activeSelectionForeground": "#d7d5d5",
+            "list.focusForeground": "#d7d5d5",
+            "list.hoverForeground": "#d7d5d5",
+            "list.inactiveSelectionForeground": "#d7d5d5",
+            "statusBar.debuggingBackground": "#d7d5d5",
+            "statusBar.foreground": "#d7d5d5",
+            "statusBar.noFolderForeground": "#d7d5d5",
+            "tab.activeForeground": "#d7d5d5",
+            "terminal.foreground": "#d7d5d5",
+            "titleBar.activeForeground": "#d7d5d5",
+            "sideBar.foreground": "#d7d5d5",
+            "editor.background": "#25262a",
+            "sideBar.background": "#222326",
+            
+        }
+    },
+
+    "editor.tokenColorCustomizations": {
+        "[Base16 Snazzy Dark]": {
+            "textMateRules": [
+                {
+                    "scope": ["keyword.operator", "keyword.operator.assignment", "variable.other.readwrite.verilog"],
+                    "settings": {
+                        "foreground": "#d7d5d5"
+                    }
+                }
+
+            ]
+
+        },
+
+        "[Bear Theme]": {
+            "strings": "#60e860",
+            "keywords": "#ff3a3a",
+            // "numbers": "#F3F99D",
+            "textMateRules": [
+                {
+                    "scope": ["keyword.operator", "keyword.operator.assignment", "variable.other.readwrite.verilog"],
+                    "settings": {
+                        "foreground": "#d7d5d5"
+                    }
+                },
+                {
+                    "scope": ["keyword.operator.event.verilog", "keyword.other.verilog", "keyword.other.systemverilog"],
+                    "settings": {
+                        "foreground": "#ff3a3a"
+                    }
+                },
+                {
+                    "scope": ["storage.type.number.verilog", "support.type.verilog", "storage.type.systemverilog", "storage.type.interface.systemverilog",
+                              "storage.type.built-in", "entity.name.type.c", "storage.modifier", "storage.type.userdefined.systemverilog", "entity.name.type.cpp",
+                              "support.type.built-in.posix-reserved", "support.type.posix-reserved.c", "constant.character.map.viml",
+                              "constant.character.map.special.viml"],
+                    "settings": {
+                        "foreground": "#4EC9B0"
+                    }
+                },
+                {
+                    "scope": ["keyword.operator.delay.verilog", "variable.object.c", "meta.indexed-name.python", "variable.other.object"],
+                    "settings": {
+                        "foreground": "#f7afca"
+                        // "foreground": "#9CDCFE"
+                    }
+                },
+                {
+                    "scope": ["constant.numeric.bin.verilog", "constant.numeric.dec.verilog", "constant.numeric.hex.verilog", "constant.numeric.systemverilog", 
+                              "constant.numeric.decimal.systemverilog", "constant.other.placeholder.verilog", "constant.numeric", 
+                              "keyword.other.unit.hexadecimal", "keyword.other.unit.suffix.integer.c"],
+                    "settings": {
+                        "foreground": "#F3F99D"
+                        // "foreground": "#ffba27"
+                    }
+                },
+                {
+                    "scope": ["storage.type.number.verilog"],
+                    "settings": {
+                        "foreground": "#F3F99D"
+                    }
+                },
+                {
+                    "scope": ["keyword.other.port.verilog", "support.type"],
+                    "settings": {
+                        "foreground": "#ff5dab"
+                    }
+                },
+                {
+                    "scope": ["entity.name.scope-resolution.cpp"],
+                    "settings": {
+                        "foreground": "#FFCB6B"
+                    }
+                },
+                {
+                    "scope": ["variable.other.constant.verilog", "constant.other.caps.python", "constant.language", "constant.other.net.systemverilog"],
+                    "settings": {
+                        "foreground": "#82AAFF"
+                    }
+                },
+                {
+                    "scope": ["variable.parameter.function-call.python", "variable.other.property.cpp", "entity.name.class", "storage.register.arm"],
+                    "settings": {
+                        "foreground": "#C678DD"
+                    }
+                },
+                {
+                    "scope": ["meta.function-call.c"],
+                    "settings": {
+                        "foreground": "#E6844F"
+                    }
+                },
+            ]
+            
+        }
+        },
+        "better-comments.tags": [
+    
+            {
+                "tag": "!",
+                "color": "#FF2D00",
+                "strikethrough": false,
+                "underline": false,
+                "backgroundColor": "transparent",
+                "bold": false,
+                "italic": false
+            },
+            {
+                "tag": "?",
+                "color": "#3498DB",
+                "strikethrough": false,
+                "underline": false,
+                "backgroundColor": "transparent",
+                "bold": false,
+                "italic": false
+            },
+            {
+                "tag": "todo",
+                "color": "#FFD700",
+                "strikethrough": false,
+                "underline": false,
+                "backgroundColor": "transparent",
+                "bold": false,
+                "italic": false
+            },
+            {
+                "tag": "*",
+                "color": "#98C379",
+                "strikethrough": false,
+                "underline": false,
+                "backgroundColor": "transparent",
+                "bold": false,
+                "italic": false
+            }
+        ],
+        "workbench.colorTheme": "Bear Theme",
+        "workbench.iconTheme": "helium-icon-theme",
+        "base16.generator.activatedThemes": [
+            "base16-snazzy-dark"
+        ],
+        "matlab.linterConfig": "",
+        "matlab.mlintpath": "C:\\Program Files\\MATLAB\\R2022b\\bin\\win64\\mlint.exe",
+        "matlab.matlabpath": "C:\\Program Files\\MATLAB\\R2022b\\bin\\matlab.exe",
+        "files.watcherExclude": {
+            "**/.bloop": true,
+            "**/.metals": true,
+            "**/.ammonite": true
+        },
+        "vim.timeout": 300,
+        "vim.easymotion": true,
+        "vkm.incsearch": true,
+        "vim.useSystemClipboard": true,
+        "vim.useCtrlKeys": true,
+        "vim.hlsearch": true,
+        "vim.camelCaseMotion.enable": true,
+        "vim.sneak": true,
+        "vim.easymotionKeys": "asdfhjklyuiopnm,qwertzxcvb;",
+        "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+        ],
+        "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "d"],
+            "commands": [":nohl"]
+        },
+        {
+            "before": ["K"],
+            "commands": ["lineBreakInsert"],
+            "silent": true
+        },
+        {
+            "before": ["e"],
+            "after": ["leader", "leader", "s"]
+        },
+        {
+            "before": ["E"],
+            "after": ["leader", "leader", "2", "s"]
+        },
+        {
+            "before": ["<leader>", "j"],
+            "after": ["leader", "leader", "j"]
+        },
+        {
+            "before": ["<leader>", "k"],
+            "after": ["leader", "leader", "k"]
+        },
+        {
+            "before": ["<leader>", "h"],
+            "after": ["leader", "leader", "h"]
+        },
+        {
+            "before": ["<leader>", "l"],
+            "after": ["leader", "leader", "l"]
+        },
+        {
+            "before": ["d"],
+            "after": ["\"", "_", "d"]
+        },
+        {
+            "before": ["d"],
+            "after": ["\"", "_", "d"]
+        },
+        {
+            "before": ["d", "d"],
+            "after": ["\"", "_", "d", "d"]
+        }
+        ],
+        "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+        {
+            "before": ["d"],
+            "after": ["\"", "_", "d"]
+        },
+        ],
+
+        "vim.leader": "<space>",
+        "vim.handleKeys": {
+            "<C-a>": false,
+            "<C-f>": false,
+            "<C-s>": false,
+            "<C-x>": false,
+            "<C-v>": false
+        },
+        "editor.cursorSurroundingLines": 2,
+}
