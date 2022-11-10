@@ -1,0 +1,27 @@
+[option]
+linter = true
+
+[rules]
+blocking_assignment_in_always_ff = true
+case_default = true
+enum_with_type = true
+explicit_case_default = true
+function_same_as_system_function = true
+function_with_automatic = true
+interface_port_with_modport = true
+legacy_always = true
+level_sensitive_always = true
+localparam_type_twostate = true
+loop_variable_declaration = true
+non_ansi_module = true
+non_blocking_assignment_in_always_comb = true
+parameter_in_package = true
+parameter_type_twostate = true
+priority_keyword = true
+unique0_keyword = true
+unique_keyword = true
+wire_reg = true
+
+# Style
+style_indent = true
+style_keyword_end = true

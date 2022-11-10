@@ -265,7 +265,7 @@
         {
             "before": ["leader", "v"],
             "after": ["<C-v>"]
-        }
+        },
         ],
         "vim.visualModeKeyBindings": [
         {
