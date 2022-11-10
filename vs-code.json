@@ -24,30 +24,27 @@
     },
 
     "workbench.colorCustomizations": {
-
         "[Bear Theme]": {
             "activityBar.foreground": "#d7d5d5",
             "descriptionForeground": "#d7d5d5",
             "editor.foreground": "#d7d5d5",
             "editorCursor.foreground": "#d7d5d5",
-            // "editorLineNumber.foreground": "#d7d5d5",
-            // "editorLineNumber.activeForeground": "#ff5dab",
             "foreground": "#d7d5d5",
             "list.activeSelectionForeground": "#d7d5d5",
             "list.focusForeground": "#d7d5d5",
             "list.hoverForeground": "#d7d5d5",
             "list.inactiveSelectionForeground": "#d7d5d5",
-            "statusBar.debuggingBackground": "#d7d5d5",
-            "statusBar.foreground": "#d7d5d5",
-            "statusBar.noFolderForeground": "#d7d5d5",
             "tab.activeForeground": "#d7d5d5",
             "terminal.foreground": "#d7d5d5",
             "titleBar.activeForeground": "#d7d5d5",
             "sideBar.foreground": "#d7d5d5",
             "editor.background": "#25262a",
-            "sideBar.background": "#222326",
-            
-        }
+            "sideBar.background": "#222326"
+        },
+        "statusBar.noFolderForeground": "#000000",
+        "statusBar.background": "#57c7ff",
+        "statusBar.noFolderBackground": "#57c7ff",
+        "statusBar.debuggingBackground": "#57c7ff"
     },
 
     "editor.tokenColorCustomizations": {
@@ -207,6 +204,12 @@
         "vim.camelCaseMotion.enable": true,
         "vim.sneak": true,
         "vim.easymotionKeys": "asdfhjklyuiopnm,qwertzxcvb;",
+        "vim.statusBarColorControl": true,
+        "vim.statusBarColors.normal": "#57c7ff",
+        "vim.statusBarColors.insert": "#5af78e",
+        "vim.statusBarColors.visual": "#f3f99d",
+        "vim.statusBarColors.visualline": "#f3f99d",
+        "vim.statusBarColors.replace": "#ff5c57",
         "vim.insertModeKeyBindings": [
         {
             "before": ["j", "k"],
@@ -258,6 +261,10 @@
         {
             "before": ["d", "d"],
             "after": ["\"", "_", "d", "d"]
+        },
+        {
+            "before": ["leader", "v"],
+            "after": ["<C-v>"]
         }
         ],
         "vim.visualModeKeyBindings": [
@@ -289,7 +296,9 @@
             "<C-f>": false,
             "<C-s>": false,
             "<C-x>": false,
-            "<C-v>": false
+            "<C-z>": false,
+            "<C-y>": false,
+            "<c-v>": false
         },
         "editor.cursorSurroundingLines": 2,
 }
