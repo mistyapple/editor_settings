@@ -42,9 +42,10 @@
             "sideBar.background": "#222326"
         },
         "statusBar.noFolderForeground": "#000000",
-        "statusBar.background": "#57c7ff",
-        "statusBar.noFolderBackground": "#57c7ff",
-        "statusBar.debuggingBackground": "#57c7ff"
+        "statusBar.foreground": "#000000",
+        "statusBar.background": "#f3f99d",
+        "statusBar.noFolderBackground": "#f3f99d",
+        "statusBar.debuggingBackground": "#f3f99d"
     },
 
     "editor.tokenColorCustomizations": {
@@ -197,7 +198,7 @@
         },
         "vim.timeout": 300,
         "vim.easymotion": true,
-        "vkm.incsearch": true,
+        "vim.incsearch": true,
         "vim.useSystemClipboard": true,
         "vim.useCtrlKeys": true,
         "vim.hlsearch": true,
@@ -210,6 +211,11 @@
         "vim.statusBarColors.visual": "#f3f99d",
         "vim.statusBarColors.visualline": "#f3f99d",
         "vim.statusBarColors.replace": "#ff5c57",
+        "vim.statusBarColors.commandlineinprogress": "#d7d5d5",
+        "vim.statusBarColors.searchinprogressmode": "#4EC9B0",
+        "vim.statusBarColors.easymotionmode": "#ff5dab",
+        "vim.statusBarColors.easymotioninputmode": "#ff5dab",
+        "vim.statusBarColors.surroundinputmode": "#C678DD",
         "vim.insertModeKeyBindings": [
         {
             "before": ["j", "k"],
@@ -301,4 +307,6 @@
             "<c-v>": false
         },
         "editor.cursorSurroundingLines": 2,
+        "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+        "editor.fontWeight": "450"
 }
