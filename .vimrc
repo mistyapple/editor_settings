@@ -42,6 +42,14 @@ xnoremap s d
 nnoremap ss dd
 nnoremap S D
 
+" EasyMotion
+nmap e <Plug>(easymotion-overwin-f)
+nmap E <Plug>(easymotion-overwin-f2)
+map <Leader>j <Plug>(easymotion-j)
+map <Leader>k <Plug>(easymotion-k)
+map <Leader>l <Plug>(easymotion-lineforward)
+map <Leader>h <Plug>(easymotion-linebackward)
+
 " Go to last active tab 
 au TabLeave * let g:lasttab = tabpagenr()
 nnoremap <silent> <c-l> :exe "tabn ".g:lasttab<cr>
