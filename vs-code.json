@@ -4,7 +4,7 @@
     "workbench.preferredDarkColorTheme": "Bear Theme",
     "files.autoSave": "afterDelay",
     "verilog.ctags.path": "\"D:\\Downloads\\System_Utilities\\ctags\\ctags.exe\"",
-    "verilog.linting.iverilog.arguments": "-y .\\. -Wall -g2012",
+    "verilog.linting.iverilog.arguments": "-Y .sv -y .\\. -g2012",
     "verilog.linting.linter": "iverilog",
     "verilog.linting.verilator.runAtFileLocation": true,
     "verilog.linting.verilator.arguments": "-y ./.",
@@ -43,9 +43,9 @@
         },
         "statusBar.noFolderForeground": "#000000",
         "statusBar.foreground": "#000000",
-        "statusBar.background": "#f3f99d",
-        "statusBar.noFolderBackground": "#f3f99d",
-        "statusBar.debuggingBackground": "#f3f99d"
+        "statusBar.background": "#57c7ff",
+        "statusBar.noFolderBackground": "#57c7ff",
+        "statusBar.debuggingBackground": "#57c7ff"
     },
 
     "editor.tokenColorCustomizations": {
@@ -74,7 +74,7 @@
                     }
                 },
                 {
-                    "scope": ["keyword.operator.event.verilog", "keyword.other.verilog", "keyword.other.systemverilog"],
+                    "scope": ["keyword.operator.event.verilog", "keyword.other.verilog", "keyword.other.systemverilog", "keyword.operator.other.systemverilog"],
                     "settings": {
                         "foreground": "#ff3a3a"
                     }
@@ -129,7 +129,7 @@
                     }
                 },
                 {
-                    "scope": ["variable.parameter.function-call.python", "variable.other.property.cpp", "entity.name.class", "storage.register.arm"],
+                    "scope": ["variable.parameter.function-call.python", "variable.other.property.cpp", "entity.name.class", "storage.register.arm", "keyword.other.systemverilog"],
                     "settings": {
                         "foreground": "#C678DD"
                     }
@@ -205,6 +205,7 @@
         "vim.camelCaseMotion.enable": true,
         "vim.sneak": true,
         "vim.easymotionKeys": "asdfhjklyuiopnm,qwertzxcvb;",
+        "vim.smartRelativeLine": true,
         "vim.statusBarColorControl": true,
         "vim.statusBarColors.normal": "#57c7ff",
         "vim.statusBarColors.insert": "#5af78e",
@@ -234,27 +235,27 @@
         },
         {
             "before": ["e"],
-            "after": ["leader", "leader", "s"]
+            "after": ["<leader>", "<leader>", "s"]
         },
         {
             "before": ["E"],
-            "after": ["leader", "leader", "2", "s"]
+            "after": ["<leader>", "<leader>", "2", "s"]
         },
         {
             "before": ["<leader>", "j"],
-            "after": ["leader", "leader", "j"]
+            "after": ["<leader>", "<leader>", "j"]
         },
         {
             "before": ["<leader>", "k"],
-            "after": ["leader", "leader", "k"]
+            "after": ["<leader>", "<leader>", "k"]
         },
         {
             "before": ["<leader>", "h"],
-            "after": ["leader", "leader", "h"]
+            "after": ["<leader>", "<leader>", "h"]
         },
         {
             "before": ["<leader>", "l"],
-            "after": ["leader", "leader", "l"]
+            "after": ["<leader>", "<leader>", "l"]
         },
         {
             "before": ["d"],
@@ -269,8 +270,12 @@
             "after": ["\"", "_", "d", "d"]
         },
         {
-            "before": ["leader", "v"],
+            "before": ["<leader>", "v"],
             "after": ["<C-v>"]
+        },
+        {
+            "before": ["t"],
+            "after": ["e"]
         },
         ],
         "vim.visualModeKeyBindings": [
@@ -308,5 +313,10 @@
         },
         "editor.cursorSurroundingLines": 2,
         "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
-        "editor.fontWeight": "450"
+        "editor.fontWeight": "450",
+        "vscode-neovim.neovimExecutablePaths.win32": "D:\\Downloads\\System_Utilities\\nvim\\bin\\nvim.exe",
+        "vscode-neovim.neovimInitVimPaths.win32": "D:\\Documents\\editor_settings\\init.vim",
+        "vscode-neovim.mouseSelectionStartVisualMode": true,
+        "notebook.lineNumbers": "on",
+        "svls-vscode.svlintToml.path": "D:\\Documents\\editor_settings\\.svlint.toml"
 }
