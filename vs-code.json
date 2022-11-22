@@ -89,7 +89,7 @@
                     }
                 },
                 {
-                    "scope": ["keyword.operator.delay.verilog", "variable.object.c", "meta.indexed-name.python", "variable.other.object"],
+                    "scope": ["keyword.operator.delay.verilog", "variable.object.c", "meta.indexed-name.python", "variable.other.object", "keyword.other.systemverilog"],
                     "settings": {
                         "foreground": "#f7afca"
                         // "foreground": "#9CDCFE"
@@ -98,7 +98,7 @@
                 {
                     "scope": ["constant.numeric.bin.verilog", "constant.numeric.dec.verilog", "constant.numeric.hex.verilog", "constant.numeric.systemverilog", 
                               "constant.numeric.decimal.systemverilog", "constant.other.placeholder.verilog", "constant.numeric", 
-                              "keyword.other.unit.hexadecimal", "keyword.other.unit.suffix.integer.c"],
+                              "keyword.other.unit.hexadecimal", "keyword.other.unit.suffix.integer.c", "constant.other.placeholder.systemverilog"],
                     "settings": {
                         "foreground": "#F3F99D"
                         // "foreground": "#ffba27"
@@ -129,13 +129,13 @@
                     }
                 },
                 {
-                    "scope": ["variable.parameter.function-call.python", "variable.other.property.cpp", "entity.name.class", "storage.register.arm", "keyword.other.systemverilog"],
+                    "scope": ["variable.parameter.function-call.python", "variable.other.property.cpp", "entity.name.class", "storage.register.arm"],
                     "settings": {
                         "foreground": "#C678DD"
                     }
                 },
                 {
-                    "scope": ["meta.function-call.c"],
+                    "scope": ["meta.function-call.c", "entity.name.section.systemverilog"],
                     "settings": {
                         "foreground": "#E6844F"
                     }
@@ -256,10 +256,6 @@
         {
             "before": ["<leader>", "l"],
             "after": ["<leader>", "<leader>", "l"]
-        },
-        {
-            "before": ["d"],
-            "after": ["\"", "_", "d"]
         },
         {
             "before": ["d"],
