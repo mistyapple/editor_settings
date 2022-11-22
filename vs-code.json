@@ -39,7 +39,9 @@
             "titleBar.activeForeground": "#d7d5d5",
             "sideBar.foreground": "#d7d5d5",
             "editor.background": "#25262a",
-            "sideBar.background": "#222326"
+            "sideBar.background": "#222326",
+            "notebook.focusedCellBorder": "#C678DD",
+            "notebook.focusedEditorBorder": "#C678DD"
         },
         "statusBar.noFolderForeground": "#000000",
         "statusBar.foreground": "#000000",
@@ -314,5 +316,6 @@
         "vscode-neovim.neovimInitVimPaths.win32": "D:\\Documents\\editor_settings\\init.vim",
         "vscode-neovim.mouseSelectionStartVisualMode": true,
         "notebook.lineNumbers": "on",
-        "svls-vscode.svlintToml.path": "D:\\Documents\\editor_settings\\.svlint.toml"
+        "svls-vscode.svlintToml.path": "D:\\Documents\\editor_settings\\.svlint.toml",
+        "liveshare.notebooks.allowGuestExecuteCells": true
 }
