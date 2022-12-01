@@ -85,7 +85,7 @@
                     "scope": ["storage.type.number.verilog", "support.type.verilog", "storage.type.systemverilog", "storage.type.interface.systemverilog",
                               "storage.type.built-in", "entity.name.type.c", "storage.modifier", "storage.type.userdefined.systemverilog", "entity.name.type.cpp",
                               "support.type.built-in.posix-reserved", "support.type.posix-reserved.c", "constant.character.map.viml",
-                              "constant.character.map.special.viml"],
+                              "constant.character.map.special.viml", "support.type.python"],
                     "settings": {
                         "foreground": "#4EC9B0"
                     }
@@ -307,10 +307,11 @@
             "<C-x>": false,
             "<C-z>": false,
             "<C-y>": false,
-            "<c-v>": false
+            "<C-v>": false,
+            "<C-o>": false
         },
         "editor.cursorSurroundingLines": 2,
-        "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+        "editor.fontFamily": "'Fira Code Retina ss03 cv02', Consolas, 'Courier New', monospace",
         "editor.fontWeight": "450",
         "vscode-neovim.neovimExecutablePaths.win32": "D:\\Downloads\\System_Utilities\\nvim\\bin\\nvim.exe",
         "vscode-neovim.neovimInitVimPaths.win32": "D:\\Documents\\editor_settings\\init.vim",
