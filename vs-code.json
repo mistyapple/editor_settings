@@ -24,6 +24,26 @@
     },
 
     "workbench.colorCustomizations": {
+        "terminalCursor.background": "#282a36",
+        "terminalCursor.foreground": "#97979b",
+        "terminal.selectionBackground": "#97979b33",
+        "terminal.foreground": "#eff0eb",
+        "terminal.ansiBlack": "#282a36",
+        "terminal.ansiRed": "#ff5c57",
+        "terminal.ansiGreen": "#5af78e",
+        "terminal.ansiYellow": "#f3f99d",
+        "terminal.ansiBlue": "#57c7ff",
+        "terminal.ansiMagenta": "#ff6ac1",
+        "terminal.ansiCyan": "#9aedfe",
+        "terminal.ansiWhite": "#f1f1f0",
+        "terminal.ansiBrightBlack": "#686868",
+        "terminal.ansiBrightRed": "#ff5c57",
+        "terminal.ansiBrightGreen": "#5af78e",
+        "terminal.ansiBrightYellow": "#f3f99d",
+        "terminal.ansiBrightBlue": "#57c7ff",
+        "terminal.ansiBrightMagenta": "#ff6ac1",
+        "terminal.ansiBrightCyan": "#9aedfe",
+        "terminal.ansiBrightWhite": "#eff0eb",
         "[Bear Theme]": {
             "activityBar.foreground": "#d7d5d5",
             "descriptionForeground": "#d7d5d5",
@@ -208,6 +228,7 @@
         "vim.sneak": true,
         "vim.easymotionKeys": "asdfhjklyuiopnm,qwertzxcvb;",
         "vim.smartRelativeLine": true,
+        "vim.replaceWithRegister": true,
         "vim.statusBarColorControl": true,
         "vim.statusBarColors.normal": "#57c7ff",
         "vim.statusBarColors.insert": "#5af78e",
@@ -260,6 +281,10 @@
             "after": ["<leader>", "<leader>", "l"]
         },
         {
+            "before": ["x"],
+            "after": ["\"", "_", "x"]
+        },
+        {
             "before": ["d"],
             "after": ["\"", "_", "d"]
         },
@@ -308,15 +333,23 @@
             "<C-z>": false,
             "<C-y>": false,
             "<C-v>": false,
-            "<C-o>": false
+            "<C-o>": false,
+            "<C-k>": false
         },
         "editor.cursorSurroundingLines": 2,
-        "editor.fontFamily": "'Fira Code Retina ss03 cv02', Consolas, 'Courier New', monospace",
-        "editor.fontWeight": "450",
+        "editor.fontFamily": "'Fira Code Ret ss03 cv02 Retina', Consolas, 'Courier New', monospace",
+        // "editor.fontWeight": "450",
         "vscode-neovim.neovimExecutablePaths.win32": "D:\\Downloads\\System_Utilities\\nvim\\bin\\nvim.exe",
         "vscode-neovim.neovimInitVimPaths.win32": "D:\\Documents\\editor_settings\\init.vim",
         "vscode-neovim.mouseSelectionStartVisualMode": true,
-        "notebook.lineNumbers": "on",
         "svls-vscode.svlintToml.path": "D:\\Documents\\editor_settings\\.svlint.toml",
-        "liveshare.notebooks.allowGuestExecuteCells": true
+        "liveshare.notebooks.allowGuestExecuteCells": true,
+        "remote.SSH.remotePlatform": {
+            "aws": "linux"
+        },
+        "jupyter.notebookRunGroups.groupCount": 3,
+        "notebook.cellToolbarLocation": {
+            "default": "left"
+        },
+        "notebook.cellToolbarVisibility": "hover"
 }
