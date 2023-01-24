@@ -1,7 +1,7 @@
 [rules]
 blocking_assignment_in_always_ff = true
 case_default = true
-enum_with_type = true
+# enum_with_type = true
 explicit_case_default = true
 function_same_as_system_function = true
 function_with_automatic = true
@@ -20,5 +20,4 @@ unique_keyword = true
 wire_reg = true
 
 # Style
-style_indent = true
 style_keyword_end = true
