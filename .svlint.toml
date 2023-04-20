@@ -8,7 +8,6 @@ function_with_automatic = true
 interface_port_with_modport = true
 legacy_always = true
 level_sensitive_always = true
-localparam_type_twostate = true
 loop_variable_declaration = true
 non_ansi_module = true
 non_blocking_assignment_in_always_comb = true
