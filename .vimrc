@@ -61,14 +61,13 @@ set lines=45 columns=150
 set guifont=Monospace\ 12
 
 set number
+set scrolloff=2
+set sidescrolloff=5
 set tabstop=2
 set shiftwidth=2
 set expandtab
 set smarttab
 set complete-=i
-
-set scrolloff=2
-set sidescrolloff=5
 
 set autoread
 
