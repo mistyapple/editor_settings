@@ -1,0 +1,8 @@
+#zsh-users/zsh-completions
+#zsh-users/zsh-syntax-highlighting
+#zsh-users/zsh-history-substring-search
+#zsh-users/zsh-autosuggestions
+
+#michael-turchin/zsh-prompt-pure kind:fpath
+#dfurnes/purer kind:fpath
+#denysdovhan/spaceship-zsh-theme kind:fpath
