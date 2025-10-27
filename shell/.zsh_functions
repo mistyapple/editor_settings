@@ -1,0 +1,77 @@
+# ls after cd
+chpwd() ls --group-directories-first
+
+rp() { realpath "$@" }
+mkcd () { mkdir -p -- "$1" && cd -P -- "$1" }
+
+g () { gvim -p "$@" }
+v () { vim -p "$@" }
+ge () { gedit "$@" }
+
+ff () { find -type f -name "$@"}
+fd () { find -type d -name "$@"}
+ffs () { find -type f -name "*$@*"}
+fds () { find -type d -name "*$@*"}
+
+# create a temporary cd alias for the current or given directory
+mkc () {
+  local wd=`pwd`
+  if [[ $# -eq 1 ]]; then
+    alias $1="cd $wd"
+  elif [[ $# -eq 2 ]] && [ -d "$2" ]; then
+    wd=`realpath $2`
+    alias $1="cd $wd"
+  else
+    echo "ERROR mkc: Must use 1 or 2 arguments"
+  fi
+}
+
+gta () {
+  git add "$@"
+}
+
+gtc () {
+  git commit -m $@
+}
+
+gtpl () {
+  local branch="master"
+ 
+  if [[ $# -gt 0 ]]; then
+    branch="$1"
+  fi
+  git pull origin "$branch"
+}
+
+gtp () {
+  local branch="master"
+ 
+  if [[ $# -gt 0 ]]; then
+    branch="$1"
+  fi
+  git push origin "$branch"
+}
+
+gtsw () {
+  if [[ $# -eq 1 ]]; then
+    git switch "$1"
+  else
+    echo "ERROR gtsw: Must use 1 argument"
+  fi
+}
+
+gtswc () {
+  if [[ $# -eq 1 ]]; then
+    git switch -c "$1"
+  else
+    echo "ERROR gtswc: Must use 1 argument"
+  fi
+}
+
+test_command() {
+  if command -v $1 &>/dev/null; then
+    echo "Command $1 exists"
+  else
+    echo "Command $1 doesn't exist"
+  fi
+}

@@ -1,0 +1,16 @@
+# use the vi navigation keys in menu completion
+bindkey -M menuselect 'h' vi-backward-char
+bindkey -M menuselect 'k' vi-up-line-or-history
+bindkey -M menuselect 'l' vi-forward-char
+bindkey -M menuselect 'j' vi-down-line-or-history
+
+# plugin bindkeys
+bindkey '^j' autosuggest-execute
+bindkey '^k' autosuggest-accept
+bindkey '^p' forward-word
+bindkey '^o' backward-word
+bindkey '^b' beginning-of-line
+bindkey '^n' end-of-line
+bindkey '^[q' delete-word
+bindkey '^[w' backward-delete-word
+bindkey '^_' undo

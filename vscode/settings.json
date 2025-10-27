@@ -1,0 +1,1337 @@
+{
+    "[buildconfig]": {
+        "editor.formatOnType": true,
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "other": "off",
+            "strings": "off"
+        }
+    },
+    "[c]": {
+        "editor.semanticHighlighting.enabled": false
+    },
+    "[systemverilog]": {
+        "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+        "editor.formatOnSave": false,
+        "editor.formatOnType": true,
+        "editor.quickSuggestions": {
+            "other": "on"
+        }
+    },
+    "[vhdl]": {
+        "editor.formatOnType": true,
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "other": "off",
+            "strings": "off"
+        }
+    },
+    "accessibility.signals.lineHasInlineSuggestion": {
+        "sound": "off"
+    },
+    "better-comments.tags": [
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#FF2D00",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "!",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#3498DB",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "?",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": true,
+            "color": "#FFD700",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "todo",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#98C379",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "*",
+            "underline": false
+        }
+    ],
+    "bookmarks.experimental.enableNewStickyEngine": false,
+    "bookmarks.label.suggestion": "useWhenSelected",
+    "bookmarks.saveBookmarksInProject": true,
+    "bookmarks.sideBar.expanded": true,
+    "bookmarks.wrapNavigation": false,
+    "chat.commandCenter.enabled": false,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "DVT.contentFilters.enable": true,
+    "DVT.incrementalProfiling.displayReportIssueNotification": false,
+    "DVT.internal.preferences": {
+        "dvt.vscode.update.1.93.1": true
+    },
+    "DVT.license.source": "/opt/lic/share/license/site/lmadmin/amiq/amiq_lic",
+    "DVT.output.automaticallyShowBuild": false,
+    "DVT.problems.maximumNumberOfDiagnostics": 10,
+    "DVT.textEditor.highlight.enableInactiveGenerateBranchesHighlight": false,
+    "DVT.textEditor.systemVerilog.contentAssist.auto-Instantiation.sortPortsAlphabetically": false,
+    "DVT.textEditor.systemVerilog.contentAssist.ignoreCase": false,
+    "DVT.textEditor.systemVerilog.contentAssist.insertMatchingVariablesAsArguments": false,
+    "DVT.textEditor.systemVerilog.contentAssist.insertNamedArgumentsAsMultiline": false,
+    "DVT.textEditor.systemVerilog.contentAssist.insertOptionalArguments": false,
+    "DVT.textEditor.systemVerilog.formatting.indentation.doNotIndentSingleLineCommentsAtBeginningOfLine": false,
+    "DVT.textEditor.systemVerilog.formatting.indentation.noIndentKeywords": {
+        "module": true
+    },
+    "DVT.textEditor.systemVerilog.formatting.indentation.preprocessing": "Indent and increase indentation level - except first",
+    "DVT.textEditor.systemVerilog.formatting.verticalAlignment.enableVerticalAlignment": true,
+    "DVT.textEditor.systemVerilog.formatting.verticalAlignment.independentPreprocessingScopes": true,
+    "DVT.textEditor.systemVerilog.formatting.verticalAlignment.onlyConsecutiveLines": true,
+    "DVT.textEditor.systemVerilog.formatting.verticalAlignment.verticalAlignPatterns": {
+        "By Name Port Connections": true,
+        "Class Variable Declarations (split dimensions)": true
+    },
+    "DVT.textEditor.systemVerilog.formatting.verticalAlignment.verticalAlignTokens": [
+        ":=",
+        "|",
+        "&",
+        "||",
+        "&&",
+        "|=",
+        "&="
+    ],
+    "DVT.textEditor.systemVerilog.formatting.verticalAlignment.verticalAlignToOpenParenthesis": false,
+    "DVT.textEditor.systemVerilog.formatting.whitespace.addWhitespaceAfter": [
+        "== <= || && + , < > <= ;"
+    ],
+    "DVT.textEditor.systemVerilog.formatting.whitespace.addWhitespaceBefore": [
+        "== <= || && + < > <= | &"
+    ],
+    "DVT.textEditor.systemVerilog.formatting.whitespace.compactWhitespaceGroups": true,
+    "DVT.textEditor.systemVerilog.highlight.enableInactiveCodeHighlight": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.colorDecorators": false,
+    "editor.cursorSurroundingLines": 16,
+    "editor.find.seedSearchStringFromSelection": "selection",
+    "editor.insertSpaces": true,
+    "editor.minimap.enabled": false,
+    "editor.minimap.showSlider": "always",
+    "editor.occurrencesHighlight": "off",
+    "editor.renderLineHighlight": "all",
+    "editor.renderWhitespace": "none",
+    "editor.scrollbar.horizontal": "visible",
+    "editor.scrollbar.vertical": "visible",
+    "editor.semanticTokenColorCustomizations": {
+        "[Bear Theme]": {
+            "enabled": true,
+            "rules": {
+                "class": "#ff5dab",
+                "CONSTANT": {
+                    "fontStyle": "bold",
+                    "foreground": "#82AAFF"
+                },
+                "FIELD": "#d7d5d5",
+                "OUT_PORT": "#ff5dab",
+                "TYPE": "#4EC9B0",
+                "variable": "#d7d5d5",
+                "VARIABLE": "#d7d5d5"
+            }
+        }
+    },
+    "editor.stickyScroll.enabled": true,
+    "editor.tabSize": 4,
+    "editor.tokenColorCustomizations": {
+        "[Bear Theme]": {
+            "keywords": "#ff3a3a",
+            "strings": "#60e860",
+            "textMateRules": [
+                {
+                    "scope": [
+                        "keyword.operator",
+                        "keyword.operator.assignment",
+                        "punctuation.separator.delimiter.c",
+                        "variable.other.readwrite.verilog"
+                    ],
+                    "settings": {
+                        "foreground": "#d7d5d5"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.parameter.systemverilog"
+                    ],
+                    "settings": {
+                        "foreground": "#58B2DC"
+                    }
+                },
+                {
+                    "scope": [
+                        "keyword.operator.event.verilog",
+                        "keyword.operator.other.systemverilog",
+                        "keyword.operator.word.systemverilog",
+                        "keyword.other.systemverilog",
+                        "keyword.other.verilog",
+                        "log.error"
+                    ],
+                    "settings": {
+                        "foreground": "#ff3a3a"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.type.c",
+                        "entity.name.type.cpp",
+                        "entity.name.type.parametrizable.systemverilog",
+                        "storage.modifier",
+                        "storage.type.built-in",
+                        "storage.type.interface.systemverilog",
+                        "storage.type.net-type.systemverilog",
+                        "storage.type.systemverilog",
+                        "storage.type.userdefined.systemverilog",
+                        "storage.type.variable.systemverilog",
+                        "support.type.built-in.posix-reserved",
+                        "support.type.posix-reserved.c",
+                        "support.type.posix-reserved.systemverilog",
+                        "support.type.python",
+                        "support.type.systemverilog",
+                        "support.type.uvm.uvm-classes.systemverilog",
+                        "support.type.verilog"
+                    ],
+                    "settings": {
+                        "foreground": "#4EC9B0"
+                    }
+                },
+                {
+                    "scope": [
+                        "constant.other.preprocessor.systemverilog",
+                        "entity.name.section.systemverilog",
+                        "keyword.operator.delay.verilog",
+                        "keyword.operator.timing.systemverilog",
+                        "keyword.other.systemverilog",
+                        "meta.indexed-name.python",
+                        "support.function.user-defined-macro.systemverilog",
+                        "support.function.uvm-user-defined-macro.systemverilog",
+                        "support.function.uvm.macro.systemverilog",
+                        "variable.object.c",
+                        "variable.other.object"
+                    ],
+                    "settings": {
+                        "foreground": "#f7afca"
+                    }
+                },
+                {
+                    "scope": [
+                        "constant.character.escape.systemverilog",
+                        "constant.numeric",
+                        "constant.numeric.bin.verilog",
+                        "constant.numeric.dec.verilog",
+                        "constant.numeric.decimal.systemverilog",
+                        "constant.numeric.hex.verilog",
+                        "constant.numeric.systemverilog",
+                        "constant.other.placeholder.systemverilog",
+                        "constant.other.placeholder.verilog",
+                        "keyword.other.unit.hexadecimal",
+                        "keyword.other.unit.suffix.integer.c",
+                        "storage.type.number.verilog"
+                    ],
+                    "settings": {
+                        "foreground": "#F3F99D"
+                    }
+                },
+                {
+                    "scope": [
+                        "storage.type.number.verilog"
+                    ],
+                    "settings": {
+                        "foreground": "#F3F99D"
+                    }
+                },
+                {
+                    "scope": [
+                        "storage.modifier.systemverilog"
+                    ],
+                    "settings": {
+                        "foreground": "#ff5dab"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.namespace.systemverilog",
+                        "entity.name.namespaces.systemverilog",
+                        "keyword.other.port.verilog",
+                        "log.constant",
+                        "support.class.systemverilog",
+                        "support.type"
+                    ],
+                    "settings": {
+                        "foreground": "#ff5dab"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.scope-resolution.cpp",
+                        "keyword.operator.arithmetic.python",
+                        "keyword.operator.arithmetic.systemverilog",
+                        "keyword.operator.bitwise.shift.c",
+                        "keyword.operator.bitwise.systemverilog",
+                        "keyword.operator.bitwise.verilog",
+                        "keyword.operator.c",
+                        "keyword.operator.logical.c",
+                        "keyword.operator.logical.systemverilog",
+                        "keyword.operator.logical.verilog",
+                        "keyword.operator.logical.python",
+                        "support.function.magic.python"
+                    ],
+                    "settings": {
+                        "foreground": "#FFCB6B"
+                    }
+                },
+                {
+                    "scope": [
+                        "constant.language",
+                        "constant.other.caps.python",
+                        "constant.other.define.systemverilog",
+                        "constant.other.net.systemverilog",
+                        "constant.other.systemverilog",
+                        "entity.name.function.preprocessor.c",
+                        "entity.name.type.define.systemverilog",
+                        "log.date",
+                        "variable.other.constant.verilog"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold",
+                        "foreground": "#82AAFF"
+                    }
+                },
+                {
+                    "scope": [
+                        "constant.other.option",
+                        "entity.name.class.systemverilog",
+                        "storage.module.systemverilog",
+                        "variable.other",
+                        "variable.parameter.function-call.python",
+                        "support.type.variable.indicator.tcl"
+                    ],
+                    "settings": {
+                        "foreground": "#C678DD"
+                    }
+                },
+                {
+                    "scope": [
+                        "meta.function-call.c",
+                        "string.unquoted.argument.shell"
+                    ],
+                    "settings": {
+                        "foreground": "#E6844F"
+                    }
+                },
+                {
+                    "scope": [
+                        "bare.string.tcl"
+                    ],
+                    "settings": {
+                        "foreground": "#60e860"
+                    }
+                }
+            ]
+        }
+    },
+    "editor.wordWrap": "on",
+    "errorLens.enabledDiagnosticLevels": [
+        "info"
+    ],
+    "errorLens.messageEnabled": true,
+    "explorer.autoReveal": false,
+    "explorer.confirmDelete": false,
+    "extensions.autoCheckUpdates": false,
+    "extensions.autoUpdate": false,
+    "extensions.ignoreRecommendations": true,
+    "files.associations": {
+        "*.cer": "tcl",
+        "*.cert": "makefile",
+        "*.iins": "cpp",
+        "*.ins": "cpp",
+        "*.out": "log",
+        "*.rpt": "log",
+        "*.ttd": "hocon",
+        "*.vams": "systemverilog",
+        "*.vman": "makefile",
+        "*.vsif": "objective-c",
+        ".vimrc": "viml",
+        "isouart_test_list": "c"
+    },
+    "files.watcherExclude": {
+        "**/comps/msv_ana_stim/**": true,
+        "**/source/rvm/**": true,
+        "**/vms/**": true
+    },
+    "git.autofetch": false,
+    "git.blame.editorDecoration.enabled": false,
+    "git.ignoreLegacyWarning": true,
+    "indentRainbow.colors": [
+        "rgba(127,255,127,0.1)",
+        "rgba(255,127,255,0.1)",
+        "rgba(255,255,64,0.1)",
+        "rgba(79,236,236,0.1)"
+    ],
+    "indentRainbow.ignoreErrorLanguages": [
+        "*"
+    ],
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.lightIndicatorStyleLineWidth": 3,
+    "keyboard.dispatch": "keyCode",
+    "logFileHighlighter.customPatterns": [
+        {
+            "foreground": "#d4d89df6",
+            "pattern": "/\\b[a-zA-z0-9/._@-]*[/.]\\w*"
+        },
+        {
+            "foreground": "#4EC9B0",
+            "pattern": "\\b(PASSING|Passing|PASSED|Passed|PASS|Pass)\\b"
+        },
+        {
+            "foreground": "#CE9178",
+            "pattern": "\\b(UVM_WARNING|OVM_WARNING|Warning|MVC_WARNING)\\b"
+        },
+        {
+            "foreground": "#CE9178",
+            "pattern": "\\*W,\\S+"
+        },
+        {
+            "fontWeight": "bold",
+            "foreground": "#FF3A3A",
+            "pattern": "\\b(ERROR|UVM_ERROR|UVM_FATAL|MVC_ERROR|OVM_ERROR|OVM_FATAL|FAIL|FAILURE|Failure|Failed|FAILED|Failing|FAILING)\\b"
+        },
+        {
+            "fontWeight": "bold",
+            "foreground": "#FF3A3A",
+            "pattern": "\\*(S)?E,\\S+"
+        },
+        {
+            "fontWeight": "bold",
+            "foreground": "#FF3A3A",
+            "pattern": "\\*(S)?F,\\S+"
+        },
+        {
+            "foreground": "#B5CEA8",
+            "pattern": "(UVM_INFO|OVM_INFO)"
+        },
+        {
+            "foreground": "#f0a94d",
+            "pattern": "DEBUG*"
+        }
+    ],
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.reverseComments",
+            "sequence": [
+                "editor.action.commentLine",
+                "editor.action.insertCursorAtEndOfEachLineSelected",
+                "removeSecondaryCursors"
+            ]
+        }
+    ],
+    "notebook.cellToolbarLocation": {
+        "default": "left"
+    },
+    "notebook.cellToolbarVisibility": "hover",
+    "notebook.lineNumbers": "on",
+    "notebook.stickyScroll.enabled": true,
+    "npm.fetchOnlinePackageInfo": false,
+    "private-extension-manager.directories": [
+        "/opt/vscode/vsix-store/1.98.2"
+    ],
+    "redhat.telemetry.enabled": false,
+    "search.collapseResults": "alwaysCollapse",
+    "security.workspace.trust.untrustedFiles": "open",
+    "settings.cycle": [
+        {
+            "id": "dvt_paren",
+            "overrideWorkspaceSettings": false,
+            "values": [
+                {
+                    "DVT.textEditor.systemVerilog.formatting.verticalAlignment.verticalAlignToOpenParenthesis": true
+                },
+                {
+                    "DVT.textEditor.systemVerilog.formatting.verticalAlignment.verticalAlignToOpenParenthesis": false
+                }
+            ]
+        }
+    ],
+    "sonarlint.disableTelemetry": true,
+    "sort-json.settings.sortMode": "Objects Only",
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.gpuAcceleration": "off",
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "update.channel": "none",
+    "update.mode": "none",
+    "update.showReleaseNotes": false,
+    "verilog.ctags.path": "ctags",
+    "vim.argumentObjectClosingDelimiters": [
+        ")",
+        "]",
+        "}"
+    ],
+    "vim.argumentObjectOpeningDelimiters": [
+        "(",
+        "[",
+        "{"
+    ],
+    "vim.camelCaseMotion.enable": true,
+    "vim.easymotion": false,
+    "vim.easymotionKeys": "asdfhjklyuiopnm,qwertzxcvb;",
+    "vim.gdefault": true,
+    "vim.handleKeys": {
+        "<C-f>": false,
+        "<C-k>": false,
+        "<C-n>": false,
+        "<C-o>": false,
+        "<C-p>": false,
+        "<C-s>": false,
+        "<C-v>": false,
+        "<C-w>": false,
+        "<C-x>": false,
+        "<C-y>": false,
+        "<C-z>": false
+    },
+    "vim.hlsearch": false,
+    "vim.incsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "after": [
+                "<Esc>"
+            ],
+            "before": [
+                "j",
+                "k"
+            ]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "<leader>",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.files.saveWithoutFormatting"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "g",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.navigateBackInNavigationLocations"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "g",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.navigateForwardInNavigationLocations"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "g",
+                "g",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.navigateForward"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "g",
+                "v"
+            ],
+            "commands": [
+                "workbench.action.navigateBack"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "g",
+                "s"
+            ],
+            "commands": [
+                "editor.action.goToReferences"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "m"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "lineBreakInsert"
+            ],
+            "silent": true
+        },
+        {
+            "after": [
+                "d",
+                "i",
+                "e"
+            ],
+            "before": [
+                "<leader>",
+                "<leader>",
+                "d",
+                "e"
+            ]
+        },
+        {
+            "after": [
+                "c",
+                "i",
+                "e"
+            ],
+            "before": [
+                "<leader>",
+                "<leader>",
+                "c",
+                "e"
+            ]
+        },
+        {
+            "after": [
+                "d",
+                "i",
+                "w"
+            ],
+            "before": [
+                "d",
+                "i",
+                "e"
+            ]
+        },
+        {
+            "after": [
+                "c",
+                "i",
+                "w"
+            ],
+            "before": [
+                "c",
+                "i",
+                "e"
+            ]
+        },
+        {
+            "after": [
+                "\"",
+                "_",
+                "x"
+            ],
+            "before": [
+                "x"
+            ]
+        },
+        {
+            "after": [
+                "\"",
+                "_",
+                "X"
+            ],
+            "before": [
+                "X"
+            ]
+        },
+        {
+            "after": [
+                "\"",
+                "_",
+                "d"
+            ],
+            "before": [
+                "d"
+            ]
+        },
+        {
+            "after": [
+                "\"",
+                "_",
+                "D"
+            ],
+            "before": [
+                "D"
+            ]
+        },
+        {
+            "after": [
+                "\"",
+                "_",
+                "d",
+                "d"
+            ],
+            "before": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "after": [
+                "\"",
+                "_",
+                "D",
+                "D"
+            ],
+            "before": [
+                "D",
+                "D"
+            ]
+        },
+        {
+            "after": [
+                "\"",
+                "_",
+                "c"
+            ],
+            "before": [
+                "c"
+            ]
+        },
+        {
+            "after": [
+                "\"",
+                "_",
+                "C"
+            ],
+            "before": [
+                "C"
+            ]
+        },
+        {
+            "after": [
+                "\"",
+                "_",
+                "c",
+                "c"
+            ],
+            "before": [
+                "c",
+                "c"
+            ]
+        },
+        {
+            "after": [
+                "\"",
+                "_",
+                "C",
+                "C"
+            ],
+            "before": [
+                "C",
+                "C"
+            ]
+        },
+        {
+            "after": [
+                "<C-x>"
+            ],
+            "before": [
+                "<leader>",
+                "x"
+            ]
+        },
+        {
+            "after": [
+                "<C-v>"
+            ],
+            "before": [
+                "<leader>",
+                "v"
+            ]
+        },
+        {
+            "after": [
+                "g",
+                "r",
+                "i",
+                "e"
+            ],
+            "before": [
+                "<leader>",
+                "r"
+            ]
+        },
+        {
+            "after": [
+                "y",
+                "i",
+                "e"
+            ],
+            "before": [
+                "<leader>",
+                "z"
+            ]
+        },
+        {
+            "after": [
+                "g",
+                "r",
+                "i",
+                "w"
+            ],
+            "before": [
+                "<leader>",
+                "g"
+            ]
+        },
+        {
+            "after": [
+                "e"
+            ],
+            "before": [
+                "t"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "n"
+            ],
+            "commands": [
+                "bookmarks.list"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "<leader>",
+                "n"
+            ],
+            "commands": [
+                "bookmarks.listFromAllFiles"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "h"
+            ],
+            "commands": [
+                "bookmarks.jumpToPrevious"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "l"
+            ],
+            "commands": [
+                "bookmarks.jumpToNext"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "p"
+            ],
+            "commands": [
+                "editor.action.peekDefinition"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "o"
+            ],
+            "commands": [
+                "editor.action.marker.next"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "i"
+            ],
+            "commands": [
+                "editor.action.revealDeclaration"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "a"
+            ],
+            "commands": [
+                "dvt.hyperlinks.jumpToAssignment"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "c"
+            ],
+            "commands": [
+                "notifications.clearAll"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "%"
+            ],
+            "commands": [
+                "editor.action.jumpToBracket"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "s"
+            ],
+            "commands": [
+                {
+                    "args": {
+                        "selectBrackets": false
+                    },
+                    "command": "editor.action.selectToBracket"
+                }
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "g",
+                "a"
+            ],
+            "commands": [
+                "editor.action.revealDeclaration"
+            ]
+        },
+        {
+            "before": [
+                "h",
+                "a"
+            ],
+            "commands": [
+                "vscode-harpoon.addEditor"
+            ]
+        },
+        {
+            "before": [
+                "h",
+                "e"
+            ],
+            "commands": [
+                "vscode-harpoon.editEditors"
+            ]
+        },
+        {
+            "before": [
+                "h",
+                "p"
+            ],
+            "commands": [
+                "vscode-harpoon.editorQuickPick"
+            ]
+        },
+        {
+            "before": [
+                "h",
+                "1"
+            ],
+            "commands": [
+                "vscode-harpoon.gotoEditor1"
+            ]
+        },
+        {
+            "before": [
+                "h",
+                "2"
+            ],
+            "commands": [
+                "vscode-harpoon.gotoEditor2"
+            ]
+        },
+        {
+            "before": [
+                "h",
+                "3"
+            ],
+            "commands": [
+                "vscode-harpoon.gotoEditor3"
+            ]
+        },
+        {
+            "before": [
+                "h",
+                "4"
+            ],
+            "commands": [
+                "vscode-harpoon.gotoEditor4"
+            ]
+        },
+        {
+            "before": [
+                "h",
+                "5"
+            ],
+            "commands": [
+                "vscode-harpoon.gotoEditor5"
+            ]
+        },
+        {
+            "before": [
+                "h",
+                "6"
+            ],
+            "commands": [
+                "vscode-harpoon.gotoEditor6"
+            ]
+        },
+        {
+            "before": [
+                "h",
+                "7"
+            ],
+            "commands": [
+                "vscode-harpoon.gotoEditor7"
+            ]
+        },
+        {
+            "before": [
+                "h",
+                "8"
+            ],
+            "commands": [
+                "vscode-harpoon.gotoEditor8"
+            ]
+        },
+        {
+            "before": [
+                "h",
+                "9"
+            ],
+            "commands": [
+                "vscode-harpoon.gotoEditor9"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
+                "settings.cycle.dvt_paren"
+            ]
+        }
+    ],
+    "vim.operatorPendingModeKeyBindings": [
+        {
+            "after": [
+                "$"
+            ],
+            "before": [
+                "L"
+            ]
+        },
+        {
+            "after": [
+                "^"
+            ],
+            "before": [
+                "H"
+            ]
+        }
+    ],
+    "vim.replaceWithRegister": true,
+    "vim.smartRelativeLine": true,
+    "vim.sneak": true,
+    "vim.statusBarColorControl": false,
+    "vim.statusBarColors.commandlineinprogress": "#d7d5d5",
+    "vim.statusBarColors.easymotioninputmode": "#ff5dab",
+    "vim.statusBarColors.easymotionmode": "#ff5dab",
+    "vim.statusBarColors.insert": "#5af78e",
+    "vim.statusBarColors.normal": "#57c7ff",
+    "vim.statusBarColors.replace": "#ff5c57",
+    "vim.statusBarColors.searchinprogressmode": "#4EC9B0",
+    "vim.statusBarColors.surroundinputmode": "#C678DD",
+    "vim.statusBarColors.visual": "#f3f99d",
+    "vim.statusBarColors.visualblock": "#f3f99d",
+    "vim.statusBarColors.visualline": "#f3f99d",
+    "vim.timeout": 300,
+    "vim.useCtrlKeys": true,
+    "vim.useSystemClipboard": true,
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "<leader>",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.files.saveWithoutFormatting"
+            ],
+            "silent": true
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ],
+            "silent": true
+        },
+        {
+            "after": [
+                "\"",
+                "_",
+                "x"
+            ],
+            "before": [
+                "x"
+            ]
+        },
+        {
+            "after": [
+                "\"",
+                "_",
+                "X"
+            ],
+            "before": [
+                "X"
+            ]
+        },
+        {
+            "after": [
+                "\"",
+                "_",
+                "d"
+            ],
+            "before": [
+                "d"
+            ]
+        },
+        {
+            "after": [
+                "\"",
+                "_",
+                "D"
+            ],
+            "before": [
+                "D"
+            ]
+        },
+        {
+            "after": [
+                "\"",
+                "_",
+                "d",
+                "d"
+            ],
+            "before": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "after": [
+                "\"",
+                "_",
+                "D",
+                "D"
+            ],
+            "before": [
+                "D",
+                "D"
+            ]
+        },
+        {
+            "after": [
+                "\"",
+                "_",
+                "c"
+            ],
+            "before": [
+                "c"
+            ]
+        },
+        {
+            "after": [
+                "\"",
+                "_",
+                "C"
+            ],
+            "before": [
+                "C"
+            ]
+        },
+        {
+            "after": [
+                "\"",
+                "_",
+                "c",
+                "c"
+            ],
+            "before": [
+                "c",
+                "c"
+            ]
+        },
+        {
+            "after": [
+                "\"",
+                "_",
+                "C",
+                "C"
+            ],
+            "before": [
+                "C",
+                "C"
+            ]
+        }
+    ],
+    "window.dialogStyle": "custom",
+    "window.newWindowDimensions": "offset",
+    "window.openFilesInNewWindow": "off",
+    "window.openFoldersInNewWindow": "off",
+    "window.titleBarStyle": "custom",
+    "workbench.colorCustomizations": {
+        "[Bear Theme]": {
+            "activityBar.foreground": "#d7d5d5",
+            "descriptionForeground": "#d7d5d5",
+            "editor.background": "#25262a",
+            "editor.foreground": "#d7d5d5",
+            "editor.lineHighlightBorder": "#b451225b",
+            "editorBracketHighlight.foreground1": "#f1d70e",
+            "editorBracketHighlight.foreground2": "#f777f2",
+            "editorBracketHighlight.foreground3": "#f1d70e",
+            "editorBracketHighlight.foreground4": "#f777f2",
+            "editorBracketHighlight.foreground5": "#f1d70e",
+            "editorBracketHighlight.foreground6": "#f777f2",
+            "editorBracketHighlight.unexpectedBracket.foreground": "#fc6c48",
+            "editorBracketMatch.border": "#5af78e",
+            "editorCursor.background": "#25262a",
+            "editorCursor.foreground": "#d7d5d5",
+            "editorGutter.background": "#2e2f36",
+            "editorLineNumber.activeForeground": "#ff5dab",
+            "editorLineNumber.foreground": "#d7d5d5",
+            "foreground": "#d7d5d5",
+            "gitDecoration.ignoredResourceForeground": "#a09d9d",
+            "list.activeSelectionForeground": "#d7d5d5",
+            "list.focusForeground": "#d7d5d5",
+            "list.hoverForeground": "#d7d5d5",
+            "list.inactiveSelectionForeground": "#d7d5d5",
+            "notebook.focusedCellBorder": "#C678DD",
+            "notebook.focusedEditorBorder": "#C678DD",
+            "sideBar.background": "#222326",
+            "sideBar.foreground": "#d7d5d5",
+            "statusBar.foreground": "#d7d5d5",
+            "statusBar.noFolderForeground": "#d7d5d5",
+            "tab.activeBorder": "#C678DD",
+            "tab.activeBorderTop": "#C678DD",
+            "tab.activeForeground": "#d7d5d5",
+            "tab.inactiveForeground": "#d7d5d5",
+            "terminal.foreground": "#d7d5d5",
+            "titleBar.activeForeground": "#d7d5d5"
+        },
+        "terminal.ansiBlack": "#282a36",
+        "terminal.ansiBlue": "#57c7ff",
+        "terminal.ansiBrightBlack": "#686868",
+        "terminal.ansiBrightBlue": "#57c7ff",
+        "terminal.ansiBrightCyan": "#9aedfe",
+        "terminal.ansiBrightGreen": "#5af78e",
+        "terminal.ansiBrightMagenta": "#ff6ac1",
+        "terminal.ansiBrightRed": "#ff5c57",
+        "terminal.ansiBrightWhite": "#eff0eb",
+        "terminal.ansiBrightYellow": "#f3f99d",
+        "terminal.ansiCyan": "#9aedfe",
+        "terminal.ansiGreen": "#5af78e",
+        "terminal.ansiMagenta": "#ff6ac1",
+        "terminal.ansiRed": "#ff5c57",
+        "terminal.ansiWhite": "#f1f1f0",
+        "terminal.ansiYellow": "#f3f99d",
+        "terminal.foreground": "#eff0eb",
+        "terminal.selectionBackground": "#97979b33",
+        "terminalCursor.background": "#282a36",
+        "terminalCursor.foreground": "#97979b"
+    },
+    "workbench.colorTheme": "Bear Theme",
+    "workbench.editor.decorations.badges": false,
+    "workbench.editor.focusRecentEditorAfterClose": false,
+    "workbench.editor.openPositioning": "last",
+    "workbench.editor.tabActionLocation": "left",
+    "workbench.editor.tabCloseButton": "left",
+    "workbench.editor.wrapTabs": true,
+    "workbench.enableExperiments": false,
+    "workbench.iconTheme": "helium-icon-theme",
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "workbench.startupEditor": "none",
+    "workbench.tree.enableStickyScroll": true,
+    "workbench.view.alwaysShowHeaderActions": true
+}
