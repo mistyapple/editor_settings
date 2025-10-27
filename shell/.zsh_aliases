@@ -1,0 +1,28 @@
+alias l='ls --group-directories-first'
+alias ll='l -la'
+alias la='l -a'
+alias cp='cp -i'
+alias mv='mv -i'
+
+alias t='tcsh'
+
+alias ,='cd ..'
+alias -- -='cd -'
+alias ee='exit'
+
+alias grc='gvim ~/.gvimrc'
+alias uenv='gvim ~/.userenv'
+alias vrc='gvim ~/.vimrc'
+alias rc='gvim ~/.zshrc'
+alias rca='gvim ~/.zsh_aliases'
+alias rcb='gvim ~/.zsh_bindkeys'
+alias rcf='gvim ~/.zsh_functions'
+alias gerc='gedit ~/.zshrc'
+alias src='source ~/.zshrc'
+
+# git functions
+alias gts='git status'
+alias gtu='git status -uno'
+alias gtbl='git branch -avv'
+alias gtsh='git stash'
+alias gtsp='git stash pop'

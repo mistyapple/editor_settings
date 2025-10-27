@@ -1,0 +1,13 @@
+setenv EDITOR gvim
+setenv VISUAL $EDITOR
+
+set prompt = "t> "
+
+alias precmd 'echo -n "\033]0;${PWD}\a"'
+
+alias z 'zsh'
+
+alias ll 'ls -la'
+alias la 'ls -a'
+
+alias ee 'exit'
