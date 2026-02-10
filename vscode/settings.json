@@ -120,7 +120,6 @@
     "DVT.textEditor.systemVerilog.formatting.whitespace.compactWhitespaceGroups": true,
     "DVT.textEditor.systemVerilog.highlight.enableInactiveCodeHighlight": false,
     "editor.bracketPairColorization.enabled": true,
-    "editor.colorDecorators": false,
     "editor.cursorSurroundingLines": 16,
     "editor.find.seedSearchStringFromSelection": "selection",
     "editor.insertSpaces": true,
@@ -154,13 +153,18 @@
         "[Bear Theme]": {
             "keywords": "#ff3a3a",
             "strings": "#60e860",
+            "functions": "#58B2DC",
+            "types": "#4EC9B0",
             "textMateRules": [
                 {
                     "scope": [
                         "keyword.operator",
                         "keyword.operator.assignment",
                         "punctuation.separator.delimiter.c",
-                        "variable.other.readwrite.verilog"
+                        "variable.other.readwrite.verilog",
+                        "variable.other.identifier.systemverilog",
+                        "storage.modifier.reference.cpp",
+                        "entity.name.type.class.systemverilog"
                     ],
                     "settings": {
                         "foreground": "#d7d5d5"
@@ -205,7 +209,8 @@
                         "support.type.python",
                         "support.type.systemverilog",
                         "support.type.uvm.uvm-classes.systemverilog",
-                        "support.type.verilog"
+                        "support.type.verilog",
+                        "storage.type"
                     ],
                     "settings": {
                         "foreground": "#4EC9B0"
@@ -231,15 +236,14 @@
                 },
                 {
                     "scope": [
-                        "constant.character.escape.systemverilog",
+                        "constant.character.escape",
                         "constant.numeric",
                         "constant.numeric.bin.verilog",
                         "constant.numeric.dec.verilog",
                         "constant.numeric.decimal.systemverilog",
                         "constant.numeric.hex.verilog",
                         "constant.numeric.systemverilog",
-                        "constant.other.placeholder.systemverilog",
-                        "constant.other.placeholder.verilog",
+                        "constant.other.placeholder",
                         "keyword.other.unit.hexadecimal",
                         "keyword.other.unit.suffix.integer.c",
                         "storage.type.number.verilog"
@@ -290,7 +294,8 @@
                         "keyword.operator.logical.systemverilog",
                         "keyword.operator.logical.verilog",
                         "keyword.operator.logical.python",
-                        "support.function.magic.python"
+                        "support.function.magic.python",
+                        "entity.name.scope-resolution.template.call.cpp"
                     ],
                     "settings": {
                         "foreground": "#FFCB6B"
@@ -316,7 +321,6 @@
                 {
                     "scope": [
                         "constant.other.option",
-                        "entity.name.class.systemverilog",
                         "storage.module.systemverilog",
                         "variable.other",
                         "variable.parameter.function-call.python",
@@ -329,7 +333,209 @@
                 {
                     "scope": [
                         "meta.function-call.c",
-                        "string.unquoted.argument.shell"
+                        "string.unquoted.argument.shell",
+                        "support.type.property-name"
+                    ],
+                    "settings": {
+                        "foreground": "#E6844F"
+                    }
+                },
+                {
+                    "scope": [
+                        "bare.string.tcl"
+                    ],
+                    "settings": {
+                        "foreground": "#60e860"
+                    }
+                }
+            ]
+        },
+        "[One Monokai]": {
+            "keywords": "#ff3a3a",
+            "strings": "#60e860",
+            "functions": "#58B2DC",
+            "types": "#4EC9B0",
+            "textMateRules": [
+                {
+                    "scope": [
+                        "keyword.operator",
+                        "keyword.operator.assignment",
+                        "punctuation.separator.delimiter.c",
+                        "variable.other.readwrite.verilog",
+                        "variable.other.identifier.systemverilog",
+                        "storage.modifier.reference.cpp",
+                        "entity.name.type.class.systemverilog"
+                    ],
+                    "settings": {
+                        "foreground": "#d7d5d5"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.parameter.systemverilog"
+                    ],
+                    "settings": {
+                        "foreground": "#58B2DC"
+                    }
+                },
+                {
+                    "scope": [
+                        "keyword.operator.event.verilog",
+                        "keyword.operator.other.systemverilog",
+                        "keyword.operator.word.systemverilog",
+                        "keyword.other.systemverilog",
+                        "keyword.other.verilog",
+                        "log.error"
+                    ],
+                    "settings": {
+                        "foreground": "#ff3a3a"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.type.c",
+                        "entity.name.type.cpp",
+                        "entity.name.type.parametrizable.systemverilog",
+                        "storage.modifier",
+                        "storage.type.built-in",
+                        "storage.type.interface.systemverilog",
+                        "storage.type.net-type.systemverilog",
+                        "storage.type.systemverilog",
+                        "storage.type.userdefined.systemverilog",
+                        "storage.type.variable.systemverilog",
+                        "support.type.built-in.posix-reserved",
+                        "support.type.posix-reserved.c",
+                        "support.type.posix-reserved.systemverilog",
+                        "support.type.python",
+                        "support.type.systemverilog",
+                        "support.type.uvm.uvm-classes.systemverilog",
+                        "support.type.verilog",
+                        "storage.type"
+                    ],
+                    "settings": {
+                        "foreground": "#4EC9B0"
+                    }
+                },
+                {
+                    "scope": [
+                        "constant.other.preprocessor.systemverilog",
+                        "entity.name.section.systemverilog",
+                        "keyword.operator.delay.verilog",
+                        "keyword.operator.timing.systemverilog",
+                        "keyword.other.systemverilog",
+                        "meta.indexed-name.python",
+                        "support.function.user-defined-macro.systemverilog",
+                        "support.function.uvm-user-defined-macro.systemverilog",
+                        "support.function.uvm.macro.systemverilog",
+                        "variable.object.c",
+                        "variable.other.object"
+                    ],
+                    "settings": {
+                        "foreground": "#f7afca"
+                    }
+                },
+                {
+                    "scope": [
+                        "constant.character.escape",
+                        "constant.numeric",
+                        "constant.numeric.bin.verilog",
+                        "constant.numeric.dec.verilog",
+                        "constant.numeric.decimal.systemverilog",
+                        "constant.numeric.hex.verilog",
+                        "constant.numeric.systemverilog",
+                        "constant.other.placeholder",
+                        "keyword.other.unit.hexadecimal",
+                        "keyword.other.unit.suffix.integer.c",
+                        "storage.type.number.verilog"
+                    ],
+                    "settings": {
+                        "foreground": "#F3F99D"
+                    }
+                },
+                {
+                    "scope": [
+                        "storage.type.number.verilog"
+                    ],
+                    "settings": {
+                        "foreground": "#F3F99D"
+                    }
+                },
+                {
+                    "scope": [
+                        "storage.modifier.systemverilog"
+                    ],
+                    "settings": {
+                        "foreground": "#ff5dab"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.namespace.systemverilog",
+                        "entity.name.namespaces.systemverilog",
+                        "keyword.other.port.verilog",
+                        "log.constant",
+                        "support.class.systemverilog",
+                        "support.type"
+                    ],
+                    "settings": {
+                        "foreground": "#ff5dab"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.scope-resolution.cpp",
+                        "keyword.operator.arithmetic.python",
+                        "keyword.operator.arithmetic.systemverilog",
+                        "keyword.operator.bitwise.shift.c",
+                        "keyword.operator.bitwise.systemverilog",
+                        "keyword.operator.bitwise.verilog",
+                        "keyword.operator.c",
+                        "keyword.operator.logical.c",
+                        "keyword.operator.logical.systemverilog",
+                        "keyword.operator.logical.verilog",
+                        "keyword.operator.logical.python",
+                        "support.function.magic.python",
+                        "entity.name.scope-resolution.template.call.cpp"
+                    ],
+                    "settings": {
+                        "foreground": "#FFCB6B"
+                    }
+                },
+                {
+                    "scope": [
+                        "constant.language",
+                        "constant.other.caps.python",
+                        "constant.other.define.systemverilog",
+                        "constant.other.net.systemverilog",
+                        "constant.other.systemverilog",
+                        "entity.name.function.preprocessor.c",
+                        "entity.name.type.define.systemverilog",
+                        "log.date",
+                        "variable.other.constant.verilog"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold",
+                        "foreground": "#82AAFF"
+                    }
+                },
+                {
+                    "scope": [
+                        "constant.other.option",
+                        "storage.module.systemverilog",
+                        "variable.other",
+                        "variable.parameter.function-call.python",
+                        "support.type.variable.indicator.tcl"
+                    ],
+                    "settings": {
+                        "foreground": "#C678DD"
+                    }
+                },
+                {
+                    "scope": [
+                        "meta.function-call.c",
+                        "string.unquoted.argument.shell",
+                        "support.type.property-name",
+                        "support.type.property-name.json"
                     ],
                     "settings": {
                         "foreground": "#E6844F"
@@ -348,7 +554,8 @@
     },
     "editor.wordWrap": "on",
     "errorLens.enabledDiagnosticLevels": [
-        "info"
+        "info",
+        "warning"
     ],
     "errorLens.messageEnabled": true,
     "explorer.autoReveal": false,
@@ -473,11 +680,19 @@
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.fontSize": 15,
     "terminal.integrated.gpuAcceleration": "off",
+    "terminal.integrated.profiles.windows": {
+        "MSYS2 UCRT": {
+            "path": "cmd.exe",
+            "args": [
+                "/c",
+                "C:\\msys64\\msys2_shell.cmd -defterm -here -no-start -ucrt64"
+            ]
+        }
+    },
     "typescript.disableAutomaticTypeAcquisition": true,
-    "update.channel": "none",
     "update.mode": "none",
     "update.showReleaseNotes": false,
-    "verilog.ctags.path": "ctags",
+    "verilog.ctags.path": "\"D:\\Downloads\\System_Utilities\\ctags\\ctags.exe\"",
     "vim.argumentObjectClosingDelimiters": [
         ")",
         "]",
@@ -1067,7 +1282,7 @@
             ],
             "commands": [
                 "vscode-harpoon.gotoEditor9"
-            ]
+         , 1   ]
         },
         {
             "before": [
@@ -1293,6 +1508,53 @@
             "sideBar.foreground": "#d7d5d5",
             "statusBar.foreground": "#d7d5d5",
             "statusBar.noFolderForeground": "#d7d5d5",
+            "statusBar.debuggingForeground": "#d7d5d5",
+            "statusBar.background": "#282a36",
+            "statusBar.noFolderBackground": "#282a36",
+            "statusBar.debuggingBackground": "#282a36",
+            "tab.activeBorder": "#C678DD",
+            "tab.activeBorderTop": "#C678DD",
+            "tab.activeForeground": "#d7d5d5",
+            "tab.inactiveForeground": "#d7d5d5",
+            "terminal.foreground": "#d7d5d5",
+            "titleBar.activeForeground": "#d7d5d5"
+        },
+        "[One Monokai]": {
+            "activityBar.foreground": "#d7d5d5",
+            "descriptionForeground": "#d7d5d5",
+            "editor.background": "#25262a",
+            "editor.foreground": "#d7d5d5",
+            "editor.lineHighlightBorder": "#b451225b",
+            "editor.lineHighlightBackground": "#25262a",
+            "editorBracketHighlight.foreground1": "#f1d70e",
+            "editorBracketHighlight.foreground2": "#f777f2",
+            "editorBracketHighlight.foreground3": "#f1d70e",
+            "editorBracketHighlight.foreground4": "#f777f2",
+            "editorBracketHighlight.foreground5": "#f1d70e",
+            "editorBracketHighlight.foreground6": "#f777f2",
+            "editorBracketHighlight.unexpectedBracket.foreground": "#fc6c48",
+            "editorBracketMatch.border": "#5af78e",
+            "editorCursor.background": "#25262a",
+            "editorCursor.foreground": "#d7d5d5",
+            "editorGutter.background": "#2e2f36",
+            "editorLineNumber.activeForeground": "#ff5dab",
+            "editorLineNumber.foreground": "#d7d5d5",
+            "foreground": "#d7d5d5",
+            "gitDecoration.ignoredResourceForeground": "#a09d9d",
+            "list.activeSelectionForeground": "#d7d5d5",
+            "list.focusForeground": "#d7d5d5",
+            "list.hoverForeground": "#d7d5d5",
+            "list.inactiveSelectionForeground": "#d7d5d5",
+            "notebook.focusedCellBorder": "#C678DD",
+            "notebook.focusedEditorBorder": "#C678DD",
+            "sideBar.background": "#222326",
+            "sideBar.foreground": "#d7d5d5",
+            "statusBar.foreground": "#d7d5d5",
+            "statusBar.noFolderForeground": "#d7d5d5",
+            "statusBar.debuggingForeground": "#d7d5d5",
+            "statusBar.background": "#282a36",
+            "statusBar.noFolderBackground": "#282a36",
+            "statusBar.debuggingBackground": "#282a36",
             "tab.activeBorder": "#C678DD",
             "tab.activeBorderTop": "#C678DD",
             "tab.activeForeground": "#d7d5d5",
@@ -1333,5 +1595,16 @@
     "workbench.settings.enableNaturalLanguageSearch": false,
     "workbench.startupEditor": "none",
     "workbench.tree.enableStickyScroll": true,
-    "workbench.view.alwaysShowHeaderActions": true
+    "workbench.view.alwaysShowHeaderActions": true,
+    "editor.fontFamily": "'FiraCode Nerd Font Retina', 'FiraCode Nerd Font ss03 cv02 Retina', 'Fira Code Ret ss03 cv02 Retina', Consolas, 'Courier New', monospace",
+    "chat.disableAIFeatures": true,
+    "verilog.linting.iverilog.arguments": "-Y .sv -y .\\. -g2012",
+    "verilog.linting.linter": "slang",
+    "verilog.linting.verilator.runAtFileLocation": true,
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "standard",
+    "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+    "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "verilog.ctags.enabled": false,
+    "editor.colorDecorators": false
 }
