@@ -1,0 +1,1 @@
+Set up CSS hacks by following instructions at https://github.com/MrOtherGuy/firefox-csshacks
